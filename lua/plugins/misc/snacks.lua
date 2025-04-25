@@ -1,11 +1,13 @@
 ---@type NvPluginSpec
 ---🍿 A collection of QoL plugins for Neovim
+
 return {
   "folke/snacks.nvim",
   priority = 1000,
   lazy = false,
   ---@diagnostic disable-next-line: undefined-doc-name
   ---@type snacks.Config
+  ---@module 'snacks'
   opts = {
     bigfile = { enabled = true },
     dashboard = {
@@ -19,7 +21,7 @@ return {
           pane = 2,
           section = "terminal",
           -- cmd = "colorscript -e square",
-          cmd = "pwsh -command \" Show-ColorScript -Name \"square\"\" ",
+          cmd = 'pwsh -command " Show-ColorScript -Name "square"" ',
           height = 5,
           padding = 1,
         },
