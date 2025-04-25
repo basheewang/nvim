@@ -1,4 +1,7 @@
-return {
+---@type NvPluginSpec
+---
+
+local M= {
   "folke/lazydev.nvim",
   ft = "lua", -- only load on lua files
   opts = {
@@ -9,3 +12,5 @@ return {
     },
   },
 }
+
+return M
