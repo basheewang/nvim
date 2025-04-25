@@ -14,6 +14,8 @@ function M.config()
   require("mcphub").setup {
     -- Server configuration
     port = 37373, -- Port for MCP Hub Express API
+    -- Not sure why below line doesn't work!
+    -- config = vim.fn.expand(vim.fn.stdpath "config" .. "/lua/plugins/ai/mcp_servers.json"),
     config = vim.fn.expand "~/.config/mcphub/servers.json", -- Config file path
 
     native_servers = {}, -- add your native servers here

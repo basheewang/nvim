@@ -13,6 +13,7 @@ return {
         api_key_name = "DEEPSEEK_API_KEY",
         endpoint = "https://api.deepseek.com",
         model = "deepseek-chat",
+        timeout = 30000, -- Timeout in milliseconds, increase this for reasoning models
       },
     },
     -- openai = {
