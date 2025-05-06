@@ -1,0 +1,37 @@
+{
+  "mcpServers": {
+    "tavily-mcp": {
+      "disabled": false,
+      "args": [
+        "/c",
+        "npx",
+        "-y",
+        "@smithery/cli@latest",
+        "run",
+        "@tavily-ai/tavily-mcp",
+        "--key",
+        "b89ab1eb-c2c7-4521-bb09-9c5f088e465c",
+        "--profile",
+        "xenacious-alpaca-SHIT1a"
+      ],
+      "command": "cmd"
+    },
+    "server-sequential-thinking": {
+      "disabled": false,
+      "args": [
+        "/c",
+        "npx",
+        "-y",
+        "@smithery/cli@latest",
+        "run",
+        "@smithery-ai/server-sequential-thinking",
+        "--key",
+        "b89ab1eb-c2c7-4521-bb09-9c5f088e465c"
+      ],
+      "command": "cmd"
+    }
+  },
+  "nativeMCPServers": [
+    
+  ]
+}

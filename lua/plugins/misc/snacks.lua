@@ -21,7 +21,7 @@ return {
           pane = 2,
           section = "terminal",
           -- cmd = "colorscript -e square",
-          cmd = 'pwsh -command " Show-ColorScript -Name "square"" ',
+          cmd = 'pwsh -command " Show-ColorScript -Name "six"" ',
           height = 5,
           padding = 1,
         },
