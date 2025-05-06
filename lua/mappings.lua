@@ -14,3 +14,6 @@ map("i", "jk", "<ESC>")
 -- map("n", "<leader>Sf", ":lua Snacks.picker.files() <CR>", { desc = "Open Snacks to find file" })
 map("n", "<leader>e", ":lua Snacks.explorer() <CR>", { desc = "File explorer" })
 map("n", "<leader>ff", ":lua Snacks.picker.files() <CR>", { desc = "Find Files" })
+
+-- mcp hub
+map("n", "<leader>M", ":MCPHub <CR>", { desc = "Open MCPHub" })
