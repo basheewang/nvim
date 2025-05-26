@@ -1,84 +1,6 @@
 {
   "mcpServers": {
-    "tavily-mcp": {
-      "command": "cmd",
-      "disabled": true,
-      "args": [
-        "/c",
-        "npx",
-        "-y",
-        "@smithery/cli@latest",
-        "run",
-        "@tavily-ai/tavily-mcp",
-        "--key",
-        "b89ab1eb-c2c7-4521-bb09-9c5f088e465c",
-        "--profile",
-        "xenacious-alpaca-SHIT1a"
-      ]
-    },
-    "duckduckgo": {
-      "command": "cmd",
-      "disabled": true,
-      "args": [
-        "/c",
-        "npx",
-        "-y",
-        "@smithery/cli@latest",
-        "run",
-        "@nickclyde/duckduckgo-mcp-server",
-        "--key",
-        "b89ab1eb-c2c7-4521-bb09-9c5f088e465c"
-      ]
-    },
-    "exa": {
-      "command": "cmd",
-      "disabled": true,
-      "args": [
-        "/c",
-        "npx",
-        "-y",
-        "@smithery/cli@latest",
-        "run",
-        "exa",
-        "--key",
-        "b89ab1eb-c2c7-4521-bb09-9c5f088e465c"
-      ]
-    },
-    "GitHub": {
-      "command": "cmd",
-      "disabled": true,
-      "args": [
-        "/c",
-        "npx",
-        "-y",
-        "@smithery/cli@latest",
-        "run",
-        "@smithery-ai/github",
-        "--profile",
-        "xenacious-alpaca-SHIT1a",
-        "--key",
-        "b89ab1eb-c2c7-4521-bb09-9c5f088e465c"
-      ]
-    },
-    "Brave Search": {
-      "command": "cmd",
-      "disabled": true,
-      "args": [
-        "/c",
-        "npx",
-        "-y",
-        "@smithery/cli@latest",
-        "run",
-        "@smithery-ai/brave-search",
-        "--config",
-        "\"{\\\"braveApiKey\\\":\\\"BSApVnLXziCD8a3evN6EQQLvTxCSFLw\\\"}\"",
-        "--key",
-        "b89ab1eb-c2c7-4521-bb09-9c5f088e465c"
-      ]
-    },
     "Alpha Vantage Stock Server": {
-      "command": "cmd",
-      "disabled": true,
       "args": [
         "/c",
         "npx",
@@ -90,113 +12,11 @@
         "\"{\\\"alphaVantageApiKey\\\":\\\"LPRBEPHKQOGNEDGZ\\\"}\"",
         "--key",
         "b89ab1eb-c2c7-4521-bb09-9c5f088e465c"
-      ]
-    },
-    "server-sequential-thinking": {
+      ],
       "command": "cmd",
-      "disabled": true,
-      "args": [
-        "/c",
-        "npx",
-        "-y",
-        "@smithery/cli@latest",
-        "run",
-        "@smithery-ai/server-sequential-thinking",
-        "--key",
-        "b89ab1eb-c2c7-4521-bb09-9c5f088e465c"
-      ]
-    },
-    "FireCrawl": {
-      "command": "cmd",
-      "disabled": true,
-      "args": [
-        "/c",
-        "npx",
-        "-y",
-        "@smithery/cli@latest",
-        "run",
-        "@mendableai/mcp-server-firecrawl",
-        "--config",
-        "\"{\\\"fireCrawlApiKey\\\":\\\"fc-82c99639f4894e6c8cf7087cd73999bb\\\"}\"",
-        "--key",
-        "b89ab1eb-c2c7-4521-bb09-9c5f088e465c"
-      ]
-    },
-    "desktop-commander": {
-      "command": "cmd",
-      "disabled": true,
-      "args": [
-        "/c",
-        "npx",
-        "-y",
-        "@smithery/cli@latest",
-        "run",
-        "@wonderwhy-er/desktop-commander",
-        "--key",
-        "b89ab1eb-c2c7-4521-bb09-9c5f088e465c"
-      ]
-    },
-    "context7-mcp": {
-      "command": "cmd",
-      "disabled": true,
-      "args": [
-        "/c",
-        "npx",
-        "-y",
-        "@smithery/cli@latest",
-        "run",
-        "@upstash/context7-mcp",
-        "--key",
-        "b89ab1eb-c2c7-4521-bb09-9c5f088e465c"
-      ]
-    },
-    "Playwright Automation": {
-      "command": "cmd",
-      "disabled": true,
-      "args": [
-        "/c",
-        "npx",
-        "-y",
-        "@smithery/cli@latest",
-        "run",
-        "@microsoft/playwright-mcp",
-        "--key",
-        "b89ab1eb-c2c7-4521-bb09-9c5f088e465c"
-      ]
-    },
-    "paper-search-mcp": {
-      "command": "cmd",
-      "disabled": true,
-      "args": [
-        "/c",
-        "npx",
-        "-y",
-        "@smithery/cli@latest",
-        "run",
-        "@openags/paper-search-mcp",
-        "--key",
-        "b89ab1eb-c2c7-4521-bb09-9c5f088e465c"
-      ]
-    },
-    "neon": {
-      "command": "cmd",
-      "disabled": true,
-      "args": [
-        "/c",
-        "npx",
-        "-y",
-        "@smithery/cli@latest",
-        "run",
-        "neon",
-        "--config",
-        "\"{\\\"neonApiKey\\\":\\\"napi_ogkxt19zz02e45ggmdt7h448oc8v21wzsuxsqnxlhxa2tgpg753a3sbo1dagnbz6\\\"}\"",
-        "--key",
-        "b89ab1eb-c2c7-4521-bb09-9c5f088e465c"
-      ]
+      "disabled": true
     },
     "SQLite Server": {
-      "command": "cmd",
-      "disabled": true,
       "args": [
         "/c",
         "npx",
@@ -208,7 +28,187 @@
         "\"{\\\"databasePath\\\":\\\"c:\\\\\\\\Users\\\\\\\\wanchen\\\\\\\\.config\\\\\\\\mcphub\\\\\\\\test.db\\\"}\"",
         "--key",
         "b89ab1eb-c2c7-4521-bb09-9c5f088e465c"
-      ]
+      ],
+      "command": "cmd",
+      "disabled": true
+    },
+    "server-sequential-thinking": {
+      "args": [
+        "/c",
+        "npx",
+        "-y",
+        "@smithery/cli@latest",
+        "run",
+        "@smithery-ai/server-sequential-thinking",
+        "--key",
+        "b89ab1eb-c2c7-4521-bb09-9c5f088e465c"
+      ],
+      "command": "cmd",
+      "disabled": true
+    },
+    "FireCrawl": {
+      "args": [
+        "/c",
+        "npx",
+        "-y",
+        "@smithery/cli@latest",
+        "run",
+        "@mendableai/mcp-server-firecrawl",
+        "--config",
+        "\"{\\\"fireCrawlApiKey\\\":\\\"fc-82c99639f4894e6c8cf7087cd73999bb\\\"}\"",
+        "--key",
+        "b89ab1eb-c2c7-4521-bb09-9c5f088e465c"
+      ],
+      "command": "cmd",
+      "disabled": true
+    },
+    "duckduckgo": {
+      "args": [
+        "/c",
+        "npx",
+        "-y",
+        "@smithery/cli@latest",
+        "run",
+        "@nickclyde/duckduckgo-mcp-server",
+        "--key",
+        "b89ab1eb-c2c7-4521-bb09-9c5f088e465c"
+      ],
+      "command": "cmd",
+      "disabled": true
+    },
+    "exa": {
+      "args": [
+        "/c",
+        "npx",
+        "-y",
+        "@smithery/cli@latest",
+        "run",
+        "exa",
+        "--key",
+        "b89ab1eb-c2c7-4521-bb09-9c5f088e465c"
+      ],
+      "command": "cmd",
+      "disabled": true
+    },
+    "desktop-commander": {
+      "args": [
+        "/c",
+        "npx",
+        "-y",
+        "@smithery/cli@latest",
+        "run",
+        "@wonderwhy-er/desktop-commander",
+        "--key",
+        "b89ab1eb-c2c7-4521-bb09-9c5f088e465c"
+      ],
+      "command": "cmd",
+      "disabled": true
+    },
+    "neon": {
+      "args": [
+        "/c",
+        "npx",
+        "-y",
+        "@smithery/cli@latest",
+        "run",
+        "neon",
+        "--config",
+        "\"{\\\"neonApiKey\\\":\\\"napi_ogkxt19zz02e45ggmdt7h448oc8v21wzsuxsqnxlhxa2tgpg753a3sbo1dagnbz6\\\"}\"",
+        "--key",
+        "b89ab1eb-c2c7-4521-bb09-9c5f088e465c"
+      ],
+      "command": "cmd",
+      "disabled": true
+    },
+    "context7-mcp": {
+      "args": [
+        "/c",
+        "npx",
+        "-y",
+        "@smithery/cli@latest",
+        "run",
+        "@upstash/context7-mcp",
+        "--key",
+        "b89ab1eb-c2c7-4521-bb09-9c5f088e465c"
+      ],
+      "command": "cmd",
+      "disabled": true
+    },
+    "GitHub": {
+      "args": [
+        "/c",
+        "npx",
+        "-y",
+        "@smithery/cli@latest",
+        "run",
+        "@smithery-ai/github",
+        "--profile",
+        "xenacious-alpaca-SHIT1a",
+        "--key",
+        "b89ab1eb-c2c7-4521-bb09-9c5f088e465c"
+      ],
+      "command": "cmd",
+      "disabled": true
+    },
+    "Playwright Automation": {
+      "args": [
+        "/c",
+        "npx",
+        "-y",
+        "@smithery/cli@latest",
+        "run",
+        "@microsoft/playwright-mcp",
+        "--key",
+        "b89ab1eb-c2c7-4521-bb09-9c5f088e465c"
+      ],
+      "command": "cmd",
+      "disabled": true
+    },
+    "Brave Search": {
+      "args": [
+        "/c",
+        "npx",
+        "-y",
+        "@smithery/cli@latest",
+        "run",
+        "@smithery-ai/brave-search",
+        "--config",
+        "\"{\\\"braveApiKey\\\":\\\"BSApVnLXziCD8a3evN6EQQLvTxCSFLw\\\"}\"",
+        "--key",
+        "b89ab1eb-c2c7-4521-bb09-9c5f088e465c"
+      ],
+      "command": "cmd",
+      "disabled": false
+    },
+    "paper-search-mcp": {
+      "args": [
+        "/c",
+        "npx",
+        "-y",
+        "@smithery/cli@latest",
+        "run",
+        "@openags/paper-search-mcp",
+        "--key",
+        "b89ab1eb-c2c7-4521-bb09-9c5f088e465c"
+      ],
+      "command": "cmd",
+      "disabled": true
+    },
+    "tavily-mcp": {
+      "args": [
+        "/c",
+        "npx",
+        "-y",
+        "@smithery/cli@latest",
+        "run",
+        "@tavily-ai/tavily-mcp",
+        "--key",
+        "b89ab1eb-c2c7-4521-bb09-9c5f088e465c",
+        "--profile",
+        "xenacious-alpaca-SHIT1a"
+      ],
+      "command": "cmd",
+      "disabled": true
     }
   },
   "nativeMCPServers": [

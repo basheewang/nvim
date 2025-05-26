@@ -8,6 +8,14 @@ return {
 		-- provider = "gemini",
 		provider = "deepseek",
 		vendors = {
+			openrouter = {
+				__inherited_from = "openai",
+				endpoint = "https://openrouter.ai/api/v1",
+				api_key_name = "OPENROUTER_API_KEY",
+				-- model = "deepseek/deepseek-r1",
+				-- model = "openai/gpt-4o-mini",
+				model = "anthropic/claude-3.7-sonnet",
+			},
 			deepseek = {
 				__inherited_from = "openai",
 				api_key_name = "DEEPSEEK_API_KEY",
@@ -30,7 +38,7 @@ return {
 			},
 			gemini25flash = {
 				__inherited_from = "gemini",
-				model = "gemini-2.5-flash-preview-04-17",
+				model = "gemini-2.5-flash-preview-05-20",
 			},
 			gemini25pro = {
 				__inherited_from = "gemini",
