@@ -43,6 +43,7 @@ return {
 			gemini25pro = {
 				__inherited_from = "gemini",
 				model = "gemini-2.5-pro-exp-03-25",
+        -- model = "gemini-2.5-pro-preview-05-06",
 			},
 		},
 		-- openai = {
