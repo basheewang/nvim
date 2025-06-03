@@ -7,7 +7,7 @@ return {
 		-- for example
 		-- provider = "gemini",
 		provider = "deepseek",
-		vendors = {
+		providers = {
 			openrouter = {
 				__inherited_from = "openai",
 				endpoint = "https://openrouter.ai/api/v1",
