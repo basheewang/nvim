@@ -2,6 +2,7 @@ return {
 	"yetone/avante.nvim",
 	event = "VeryLazy",
 	version = false, -- Never set this value to "*"! Never!
+  -- commit = 'd3c93c0dabb4311d0af30940726fb0bff30a9676',
 	opts = {
 		-- add any opts here
 		-- for example
@@ -29,20 +30,27 @@ return {
 				endpoint = "https://api.deepseek.com",
 				model = "deepseek-reasoner",
 			},
-			xai = {
+			xai_fast = {
 				__inherited_from = "openai",
 				api_key_name = "XAI_API_KEY",
 				endpoint = "https://api.x.ai/v1",
-				model = "grok-3-beta",
+				model = "grok-3-fast-latest",
+				-- model = "deepseek-code",
+			},
+			xai_latest = {
+				__inherited_from = "openai",
+				api_key_name = "XAI_API_KEY",
+				endpoint = "https://api.x.ai/v1",
+				model = "grok-3-latest",
 				-- model = "deepseek-code",
 			},
 			gemini25flash = {
 				__inherited_from = "gemini",
-				model = "gemini-2.5-flash-preview-05-20",
+				model = "gemini-2.5-flash",
 			},
 			gemini25pro = {
 				__inherited_from = "gemini",
-				model = "gemini-2.5-pro-exp-03-25",
+				model = "gemini-2.5-pro",
         -- model = "gemini-2.5-pro-preview-05-06",
 			},
 		},
