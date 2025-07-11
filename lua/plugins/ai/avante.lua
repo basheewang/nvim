@@ -30,18 +30,32 @@ return {
 				endpoint = "https://api.deepseek.com",
 				model = "deepseek-reasoner",
 			},
-			xai_fast = {
+			xai_grok3_mini = {
+				__inherited_from = "openai",
+				api_key_name = "XAI_API_KEY",
+				endpoint = "https://api.x.ai/v1",
+				model = "grok-3-mini-latest",
+				-- model = "deepseek-code",
+			},
+			xai_grok3_fast = {
 				__inherited_from = "openai",
 				api_key_name = "XAI_API_KEY",
 				endpoint = "https://api.x.ai/v1",
 				model = "grok-3-fast-latest",
 				-- model = "deepseek-code",
 			},
-			xai_latest = {
+			xai_grok3_latest = {
 				__inherited_from = "openai",
 				api_key_name = "XAI_API_KEY",
 				endpoint = "https://api.x.ai/v1",
 				model = "grok-3-latest",
+				-- model = "deepseek-code",
+			},
+			xai_grok4_latest = {
+				__inherited_from = "openai",
+				api_key_name = "XAI_API_KEY",
+				endpoint = "https://api.x.ai/v1",
+				model = "grok-4-latest",
 				-- model = "deepseek-code",
 			},
 			gemini25flash = {
